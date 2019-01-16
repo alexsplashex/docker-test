@@ -1,8 +1,5 @@
-FROM elixir:1.7.4
+FROM nginx
 
-# elixir expects utf8.
-ENV ELIXIR_VERSION="v1.7.4" \
-	LANG=C.UTF-8 \
-	REFRESHED_AT=2018-12-27-1
+ENV REFRESHED_AT=2018-12-27-1
 
-CMD ["/bin/bash"]
+# CMD ["/bin/bash"]
